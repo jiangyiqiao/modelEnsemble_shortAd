@@ -1,4 +1,4 @@
-#model_Ensemble_Voting_shortAd_Classification
+# model_Ensemble_Voting_shortAd_Classification
 ## 微信广告正负样本分类
 
 采用模型融合的方式：投票机制，多数表决原则
@@ -49,6 +49,6 @@
     {'not_ad': 4983, 'ad': 3975}         #预测正确的各个类的数目
     {'not_ad': 5021, 'ad': 4160}         #测试数据集中各个类的数目
     {'not_ad': 5168, 'ad': 4013}         #预测结果中各个类的数目
-    not_ad:	 precision:0.964203	 recall:0.992432	 f:0.978114
-    ad:	         precision:0.990531	 recall:0.955529	 f:0.972715
+    not_ad:	      precision:0.964203	 recall:0.992432	 f:0.978114
+    ad:	      precision:0.990531	 recall:0.955529	 f:0.972715
 
